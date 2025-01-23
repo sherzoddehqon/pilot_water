@@ -1,1 +1,0 @@
-from .mermaid_parser import MermaidParser
