@@ -1,0 +1,35 @@
+D:\Python_repositories\my_apps\pilot_irrigation>tree /F /A D:\Python_repositories\my_apps\pilot_irrigation
+Folder PATH listing for volume Новый том
+Volume serial number is 00000083 D0E7:8D1F
+D:\PYTHON_REPOSITORIES\MY_APPS\PILOT_IRRIGATION
+|   main.py
+|
++---core
+|       network.py
+|       network_analyzer.py
+|       strahler.py
+|       validator.py
+|       __init__.py
+|
++---gui
+|   |   strahler_visualization.py
+|   |   __init__.py
+|   |
+|   \---tabs
+|       |   network_structure_tab.py
+|       |   network_tab.py
+|       |   strahler_tab.py
+|       |   __init__.py
+|       |
+|       \---__pycache__
+|               network_tab.cpython-312.pyc
+|               strahler_tab.cpython-312.pyc
+|               __init__.cpython-312.pyc
+|
++---models
+|       components.py
+|       __init__.py
+|
+\---parsers
+        mermaid_parser.py
+        _init_.py

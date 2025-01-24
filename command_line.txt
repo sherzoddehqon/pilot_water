@@ -1,0 +1,197 @@
+D:\Python_repositories\my_apps\pilot_irrigation>python main.py
+
+Parsing Mermaid network diagram...
+
+Found field IDs: ['F1_1', 'F1_2', 'F1_3', 'F1_4', 'F1_5', 'F1_6', 'F2_1', 'F2_2', 'F2_3', 'F2_4', 'F2_5', 'F2_6', 'F5_1', 'F5_2', 'F5_3', 'F5_4', 'F5_6', 'F5_7', 'F5_8', 'F7_1', 'F7_2', 'F7_3', 'F7_4', 'F7_5', 'F7_6', 'F7_7']
+
+Total unique nodes: 69
+Adding component: DP0 (KFK)
+Adding component: MC0 (KFK)
+Adding component: ZT1 (Do'stlik Zatvor)
+Adding component: SW1 (Do'stlik Smart Water)
+Adding component: MC01 (Do'stlik Bosh Canal)
+Adding component: ZT2 (Tashlama<br>Qora Jiyda)
+Adding component: DP1 (Distribution Point 1<br>(SJ-1) <br> Chap Irmoq)
+Adding component: ZT3 (Chap Irmoq)
+Adding component: SW2 (Madaliyev_1)
+Adding component: MC1 (Chap Irmoq)
+Adding component: DP1_1 (SJ 1_1)
+Adding component: ZT4 (ChIR-1)
+Adding component: SW3 (ChIR-1)
+Adding component: ZT9 (Chap Irmoq)
+Adding component: DP1_2 (SJ 1-2)
+Adding component: DP1_3 (SJ 1-3)
+Adding component: DP1_4 (SJ 1-4)
+Adding component: DP1_5 (SJ 1-5)
+Adding component: DP7 (SJ-7<br>O`ng Irmoq)
+Adding component: ZT5 (Qora Jiyda <br> O`ng Irmoq)
+Adding component: SW4 (O'ng irmoq)
+Adding component: MC2 (O'ng irmoq)
+Adding component: ZT6 (O'ng irmoq)
+Adding component: SW5 (O'ng irmoq)
+Adding component: MC3 (ariq)
+Adding component: DP7_1 (SJ 7_1)
+Adding component: DP7_2 (SJ 7_2)
+Adding component: DP7_3 (SJ 7_3)
+Adding component: DP7_4 (SJ 7_4)
+Adding component: DP7_5 (SJ 7_5)
+Adding component: DP7_6 (SJ 7_6)
+Adding component: DP7_7 (SJ 7_7)
+Adding component: DP2 (SJ-2 <br> R-2 zahira)
+Adding component: ZT10 (R2-zahira)
+Adding component: SW6 (R-2)
+Adding component: ZT11 (R2-zahira-1)
+Adding component: ZT12 (R2-Zahira -2)
+Adding component: DP5 (SJ-5 <br>R-2 KFK)
+Adding component: MC11 (R2-2 dahana)
+Adding component: DP4 (SJ-4 <br>R-1)
+Adding component: DP6 (SJ-6 <br>R-3)
+Adding component: F5_1 (F5_1)
+Adding component: F7_3 (F7_3)
+Adding component: F2_1 (F2_1)
+Adding component: F1_4 (F1_4)
+Adding component: F1_2 (F1_2)
+Adding component: F7_4 (F7_4)
+Adding component: F5_8 (F5_8)
+Adding component: F2_6 (F2_6)
+Adding component: F5_2 (F5_2)
+Adding component: F5_4 (F5_4)
+Adding component: SW8 (SW8)
+Adding component: F7_6 (F7_6)
+Adding component: F7_5 (F7_5)
+Adding component: F1_5 (F1_5)
+Adding component: F5_3 (F5_3)
+Adding component: F2_4 (F2_4)
+Adding component: F1_1 (F1_1)
+Adding component: F1_3 (F1_3)
+Adding component: F2_3 (F2_3)
+Adding component: F7_2 (F7_2)
+Adding component: F7_7 (F7_7)
+Adding component: DP5_1 (DP5_1)
+Adding component: F5_7 (F5_7)
+Adding component: F2_5 (F2_5)
+Adding component: F7_1 (F7_1)
+Adding component: F2_2 (F2_2)
+Adding component: F5_6 (F5_6)
+Adding component: F1_6 (F1_6)
+
+Components by type: {'distribution_point': 20, 'canal': 6, 'gate': 10, 'smart_water': 7, 'field': 26}
+Adding connection: DP0 -> MC0
+Connection added between DP0 and MC0
+Adding connection: MC0 -> ZT1
+Connection added between MC0 and ZT1
+Adding connection: ZT1 -> SW1
+Connection added between ZT1 and SW1
+Adding connection: SW1 -> MC01
+Connection added between SW1 and MC01
+Adding connection: MC01 -> DP1
+Connection added between MC01 and DP1
+Adding connection: MC01 -> DP6
+Connection added between MC01 and DP6
+Adding connection: MC01 -> DP5
+Connection added between MC01 and DP5
+Adding connection: MC01 -> DP4
+Connection added between MC01 and DP4
+Adding connection: MC01 -> DP2
+Connection added between MC01 and DP2
+Adding connection: MC01 -> DP7
+Connection added between MC01 and DP7
+Adding connection: DP1 -> ZT3
+Connection added between DP1 and ZT3
+Adding connection: ZT3 -> SW2
+Connection added between ZT3 and SW2
+Adding connection: SW2 -> DP1_1
+Connection added between SW2 and DP1_1
+Adding connection: SW2 -> MC1
+Connection added between SW2 and MC1
+Adding connection: MC1 -> ZT9
+Connection added between MC1 and ZT9
+Adding connection: DP1_1 -> ZT4
+Connection added between DP1_1 and ZT4
+Adding connection: ZT4 -> SW3
+Connection added between ZT4 and SW3
+Adding connection: SW3 -> F1_1
+Connection added between SW3 and F1_1
+Adding connection: ZT9 -> DP1_2
+Connection added between ZT9 and DP1_2
+Adding connection: ZT9 -> DP1_3
+Connection added between ZT9 and DP1_3
+Adding connection: ZT9 -> DP1_4
+Connection added between ZT9 and DP1_4
+Adding connection: ZT9 -> DP1_5
+Connection added between ZT9 and DP1_5
+Adding connection: DP1_2 -> F1_2
+Connection added between DP1_2 and F1_2
+Adding connection: DP1_3 -> F1_3
+Connection added between DP1_3 and F1_3
+Adding connection: DP1_4 -> F1_4
+Connection added between DP1_4 and F1_4
+Adding connection: DP1_4 -> F1_5
+Connection added between DP1_4 and F1_5
+Adding connection: DP1_5 -> F1_6
+Connection added between DP1_5 and F1_6
+Adding connection: DP7 -> ZT5
+Connection added between DP7 and ZT5
+Adding connection: ZT5 -> SW4
+Connection added between ZT5 and SW4
+Adding connection: SW4 -> MC2
+Connection added between SW4 and MC2
+Adding connection: MC2 -> ZT6
+Connection added between MC2 and ZT6
+Adding connection: ZT6 -> SW5
+Connection added between ZT6 and SW5
+Adding connection: SW5 -> MC3
+Connection added between SW5 and MC3
+Adding connection: MC3 -> DP7_1
+Connection added between MC3 and DP7_1
+Adding connection: MC3 -> DP7_2
+Connection added between MC3 and DP7_2
+Adding connection: MC3 -> DP7_3
+Connection added between MC3 and DP7_3
+Adding connection: MC3 -> DP7_4
+Connection added between MC3 and DP7_4
+Adding connection: MC3 -> DP7_5
+Connection added between MC3 and DP7_5
+Adding connection: MC3 -> DP7_6
+Connection added between MC3 and DP7_6
+Adding connection: MC3 -> DP7_7
+Connection added between MC3 and DP7_7
+Adding connection: DP7_1 -> F7_1
+Connection added between DP7_1 and F7_1
+Adding connection: DP7_2 -> F7_2
+Connection added between DP7_2 and F7_2
+Adding connection: DP7_3 -> F7_3
+Connection added between DP7_3 and F7_3
+Adding connection: DP7_4 -> F7_4
+Connection added between DP7_4 and F7_4
+Adding connection: DP7_5 -> F7_5
+Connection added between DP7_5 and F7_5
+Adding connection: DP7_6 -> F7_6
+Connection added between DP7_6 and F7_6
+Adding connection: DP7_7 -> F7_7
+Connection added between DP7_7 and F7_7
+Adding connection: DP2 -> ZT10
+Connection added between DP2 and ZT10
+Adding connection: ZT10 -> SW6
+Connection added between ZT10 and SW6
+Adding connection: SW6 -> ZT11
+Connection added between SW6 and ZT11
+Adding connection: SW6 -> ZT12
+Connection added between SW6 and ZT12
+Adding connection: DP5_1 -> F2_4
+Connection added between DP5_1 and F2_4
+Adding connection: SW8 -> F5_2
+Connection added between SW8 and F5_2
+
+Added 53 connections
+
+Initializing Step 1 widget
+
+Initializing Step 2 widget
+
+Initializing Step 3 widget
+
+Initializing Step 4 widget
+Step 1 approved
+Step 2 approved
+Step 3 approved
